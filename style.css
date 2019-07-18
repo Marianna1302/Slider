@@ -1,0 +1,23 @@
+#slider {
+    max-width: 800px;
+    margin: 60px auto;
+    position: relative;
+} 
+
+#slider i {
+    position: absolute;
+    font-size: 100px;
+    font-weight: bold; 
+    top: 35%;
+    cursor: pointer;
+    background: #ffffff8a;
+    padding: 5px;
+}
+
+#slider i:first-child {
+    left: 5px;
+}
+
+#slider i:last-child {
+    right: 5px;
+}
