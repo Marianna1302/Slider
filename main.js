@@ -1,9 +1,9 @@
 var data = [
-    'image/slide-1.png', 
-    'image/slide-2.png', 
-    'image/slide-3.png',
-    'image/slide-4.png',
-    'image/slide-5.png',
+    'image/1.jpg', 
+    'image/2.jpg', 
+    'image/3.jpg',
+    'image/4.jpg',
+    'image/5.jpg',
 ]
 
 function Slider (images, id, defaultIndex = 0) {
@@ -16,7 +16,6 @@ function Slider (images, id, defaultIndex = 0) {
             this.index = 0;
         }
         this.img.src = images[this.index];
-     
     }.bind(this);
 
     this.slideLeft = function () {
